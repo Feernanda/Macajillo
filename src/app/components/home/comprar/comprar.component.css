@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin-top: 0px;
+    margin-left: -1%;
+    margin-right: -0.6%;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.contenedor{
+    background-color: #f7eee2;
+}
+
+
+.texto{
+    text-align: center;
+    font-family: Avenir-Regular;
+    font-size:3vw;
+    color: #b08c3d;
+    letter-spacing: 8.7px;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.imagenes{
+    display: flex;
+    margin-left:30%;
+    margin-right:30%;
+}
+
+
+
+.imagenes .amazon{
+    height: 100%;
+    width: 100%;
+}
+
+
+.imagenes .mercadoLibre{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,73 @@
+*{
+    padding: 1%;
+    margin: -8px;
+    box-sizing: border-box;
+    background-color:#161616;
+    margin-top: -13px;
+}
+
+.contenedor{
+    height:643px;
+}
+
+form label {
+    position: relative;
+    color: white;
+}
+
+form button {
+    color: white;
+}
+
+input{
+    color: white;
+}
+
+form{
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: -5px;
+}
+
+form div{
+    color: red;
+}
+
+button{
+    display:block;
+    margin-left: 300px;
+    margin-top: -50px;
+}
+
+div{
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.logo img{
+    float: right;
+    margin-top: 10px;
+}
+
+form{
+    line-height: 35px;
+}
+
+.email{
+    margin-left: 20%;
+}
+
+h2{
+    text-align: center;
+    float: right;
+    margin-right: 5%;
+    margin-top: 1%;
+}

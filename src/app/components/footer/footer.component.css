@@ -1,0 +1,15 @@
+*{
+    padding: 0%;
+    margin: -5px;
+    margin-right: -2.5px;
+    box-sizing: border-box;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+h1{
+    background-color:#B08C3D;
+}

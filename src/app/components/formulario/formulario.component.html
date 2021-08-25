@@ -1,0 +1,23 @@
+<div class="contenedor">
+    <h3>Embotellado en</h3> <br>
+        <h1>Jalisco, México</h1>
+    <label class="logo"><img src="./../../../assets/logos/macajillo-logo-negro.png" alt="macajillo"></label>
+    <form [formGroup]="signupForm">
+        <label>Nombre: </label> <br>
+        <input formControlName="nombre" type="text"> <br>
+        <div *ngIf="signupForm.get('nombre')!.touched">Por favor indica tu nombre </div>
+        <label>Correo Electrónico: </label> <br>
+        <input formControlName="email" type="text"> <br>
+        <div *ngIf="signupForm.get('email')!.touched">Por favor indica un correo de contacto </div>
+        <label>Compañia: </label> <br>
+        <input formControlName="company" type="text"> <br>
+        <label>Teléfono: </label> <br>
+        <input formControlName="telefono" type="text"> <br>
+        <div *ngIf="signupForm.get('telefono')!.touched">Por favor indica un número de contacto </div>
+        <label>Mensaje: </label> <br>
+        <input formControlName="mensaje" type="text"> <br>
+        <div *ngIf="signupForm.get('mensaje')!.touched">Por favor escribe detalladamente tu petición </div>
+        <button [disabled]="signupForm.invalid" type="submit">Enviar mensaje</button>
+    </form>
+    <h2>Aviso de Privacidad © 2021 Macajillo | Todos los derechos reservados</h2>
+</div>

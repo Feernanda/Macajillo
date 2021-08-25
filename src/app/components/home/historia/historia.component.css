@@ -1,0 +1,47 @@
+*{
+    padding:1px;
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-right: 0.01%;
+    list-style: none;
+    text-decoration: none;
+    background-color:#FAFAFA;
+    font-family: Avenir-Regular;
+}
+
+
+.imagen img{
+    display:flex;
+    width:40%;
+    height: 40%;
+    margin-left: 10%;
+    margin-right: 90%;
+    margin-top:-25%
+}
+
+.historia{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.parrafo1{
+    text-align: center;
+}
+
+
+
+.macajillo{
+    margin-left: 63%;
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+.parrafo2{
+    display: flex;
+    margin-top: 5%;
+    text-align:left;
+    margin-left: 60%;
+    margin-right: 20%;
+    font-size:1.5vw;
+}
+
