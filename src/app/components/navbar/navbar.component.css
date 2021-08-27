@@ -74,6 +74,7 @@ nav .checkbtn{
     margin-top: -600px;
     cursor: pointer;
     transition:all 1s;
+    display:block;
 }
 
 
@@ -94,7 +95,8 @@ nav .checkbtn{
     }
 }
 
-@media (max-width:840px){
+@media (max-width:870px){
+
 
     .checkbtn{
         display: block;
@@ -109,7 +111,7 @@ nav .checkbtn{
         width: 90%;
         height: 40px;
         top: 80px;
-        left: 0;
+        left: -600px;
         text-align: center;
         margin-right: -30px;
         transition: all 1s;
@@ -129,12 +131,12 @@ nav .checkbtn{
 
     .logos li{
         position: relative;
-        display: inline-block;
+        display: inline;
         width: -30px;
         height: 40px;
         top: 80px;
         margin-top: 3px;
-        margin-right: -10px;
+        left: -800px;
         transition: all 1s;
         text-align: center;
     }
@@ -148,13 +150,15 @@ nav .checkbtn{
     nav a{
         font-size:30px;
     }
+    
     .texto a.active,.texto a:hover{
         text-decoration: none;
         background: #B08C3D;
     }
 
-    #check:checked ~ .texto li{
-        display:none;
+    #check:checked ~ .logos li {
+        right: 600px;
+        background: white;
     }
 
     nav ul{
@@ -162,8 +166,6 @@ nav .checkbtn{
         height:500px;
         width: 800px;
     }
-
-
 
 }
 

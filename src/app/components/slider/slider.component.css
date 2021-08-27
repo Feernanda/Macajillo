@@ -36,8 +36,9 @@
 
 .botones{
     display: flex;
-    justify-content: center;
     margin: 5px;
+    margin-left: -90%;
+    margin-top: 300px;
 }
 
 .botones label{
@@ -56,19 +57,19 @@
 }
 
 #img1:checked ~ .m1{
-    margin-left: 0;
+    margin-left: 5%;
 }
 
 #img2:checked ~ .m2{
-    margin-left: -124%;
+    margin-left: -205%;
 }
 
 #img3:checked ~ .m3{
-    margin-left: -250%;
+    margin-left: -423%;
 }
 #img4:checked ~ .m4{
-    margin-left: -377%;
+    margin-left: -213%;
 }
 #img5:checked ~ .m5{
-    margin-left: -509%;
+    margin-left: -430%;
 }

@@ -1,5 +1,5 @@
-<div class="contenedor">
-    <div class="galeria" *ngFor="let imagen of imagenes">
+<div class="contenedor" fxFlex="100" fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center center">
+    <div class="galeria" *ngFor="let imagen of imagenes" >
         <img src="{{imagen.imgUrl}}">
     </div>
 </div>

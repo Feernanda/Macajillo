@@ -12,17 +12,13 @@
     background-color: #f7eee2;
 }
 
-.imagen img{
-    width: 50%;
-    height: 50%;
-    margin:10%;
+
+.texto{
+    text-align: center;
 }
 
-
-
 .video video {
-    width: 100%;
-    height: 50%;
+    width: 1000px;
     margin-top: 10%;
     margin-left: 0.1%;
     margin-right: 0%;
@@ -32,32 +28,37 @@
 
 .texto .producto{
     color: black;
-    font-size:2vw;
-    margin-left: 70%;
-    margin-top: -36%;
+    font-size:10px;
+    
 }
 
 .texto .informacion{
-    text-align: center;
     color:black;
-    font-size:3vw;
-    margin-left: 50%;
     font-weight: bold;
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .texto .hashtag{
     background-color: black;
-    text-align: center;
     color: white;
-    font-size:2vw;
-    margin-left:64%;
-    margin-right:13%;
     cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .texto .comprar{
     color: white;
-    font-size:3vw;
-    margin-left:75%;
+    font-size:30px;
     cursor: pointer;
+}
+
+a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    border: 1px solid black;
+}
+
+a:hover{
+    color:white;
+    background-color:black;
 }
