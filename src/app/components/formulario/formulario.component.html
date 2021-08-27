@@ -1,6 +1,8 @@
-<div class="contenedor">
-    <h3>Embotellado en</h3> <br>
+<div class="contenedor" fxFlex="100" fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center center">
+    <div fxFlex="100" fxLayout="column" fxLayoutAlign="center center">
+        <h3>Embotellado en</h3> <br>
         <h1>Jalisco, México</h1>
+    </div>
     <label class="logo"><img src="./../../../assets/logos/macajillo-logo-negro.png" alt="macajillo"></label>
     <form [formGroup]="signupForm">
         <label>Nombre: </label> <br>
@@ -19,5 +21,7 @@
         <div *ngIf="signupForm.get('mensaje')!.touched">Por favor escribe detalladamente tu petición </div>
         <button [disabled]="signupForm.invalid" type="submit">Enviar mensaje</button>
     </form>
-    <h2>Aviso de Privacidad © 2021 Macajillo | Todos los derechos reservados</h2>
+    <div fxFlex="100" fxLayout="column" fxLayoutAlign="center center">
+        <h2>Aviso de Privacidad © 2021 Macajillo | Todos los derechos reservados</h2>
+    </div>
 </div>
